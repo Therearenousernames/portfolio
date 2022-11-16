@@ -1,0 +1,302 @@
+/*
+  containers for the main body 
+*/
+
+.container {
+  width : 100%;
+  display : flex ; 
+  justify-content: center ;
+  align-items: center ;
+  /* padding: 0 2rem; */
+}
+
+.bodyContainer{
+  width : 60%; 
+  display :flex ;
+  flex-direction: column;
+  justify-content: center ;
+  /* background-color: rgb(216, 216, 29); */
+
+}
+
+
+
+.main {
+  width : 100% ;
+  /* padding: 4rem 0; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: beige; */
+
+}
+
+
+/*
+  -----------< end of container styling >--------
+*/
+
+
+/*
+ --------------------< Nav bar container styling >-----------------------
+*/
+.navHeader {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px ;
+  width: 100%;
+  height : auto ;
+  /* background-color: #111; */
+  /* background-color: beige; */
+
+}
+
+/*
+ --------------------< Nav bar container end >-----------------------
+*/
+
+
+/*
+ --------------------< userInfo  container styling >-----------------------
+*/
+
+.info{
+  width : 100%;
+  height: 100%;
+  display : flex;
+  flex-wrap: wrap ; 
+  /* background-color: aqua; */
+}
+
+.Heading{
+  width: 50%;
+  text-align: left;
+  margin-top: 20px;
+  padding : 40px ;
+  /* background-color: rgb(216, 216, 29); */
+
+}
+.Heading h1 , .Heading p{
+  text-align: left ;
+}
+
+.Heading h1::first-line{
+  color :rgb(35, 98, 182) ;
+}
+
+
+.imageContainer{
+
+  width: 50% ;
+  height : 80%;
+
+  display: flex; 
+  justify-content: center ;
+  align-self: center ;
+  /* background-color: rgb(216, 216, 29); */
+
+}
+
+.imageContainer img {
+  width : 60%;
+  height : 80%;
+}
+
+
+.aboutme{
+  display : flex ;
+  flex-direction: column;
+  padding : 20px ;
+}
+
+/*
+ --------------------< userinfo container ending  >-----------------------
+*/
+
+
+/*
+ --------------------< skill section container styling  >-----------------------
+*/
+.skills {
+  display : flex; 
+  flex-wrap: wrap;
+  justify-content: center ;
+  align-items: center;
+  /* background-color: rgb(70, 177, 60); */
+
+}
+
+.skillHeader{
+  text-align: center;
+  width: 80% ;
+}
+
+.back {
+  width : 400px;
+  margin: 1rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, rgb(139, 41, 114), rgb(48, 129, 45));
+}
+
+
+.card {
+  border-radius: 7px;
+  width : 100% ;
+  padding : 20px ;
+  background-color: white ;
+}
+
+.carddark{
+
+  background-color: #111;
+  color : whitesmoke ;
+}
+
+
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+/*
+ --------------------< skills container ending  >-----------------------
+*/
+
+
+.ul {
+  border: 1px solid #e7e7e7;
+  background-color: beige;
+}
+
+
+
+
+
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+
+
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+
+    .info{
+      flex-direction: column-reverse;
+      flex-wrap: wrap ; 
+}
+
+.imageContainer img {
+  width : 100%;
+  height : 80%;
+}
+
+  .imageContainer{
+    width : 50%;
+    align-self: center;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+   .back{
+      width : 300px ;
+   }
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}
