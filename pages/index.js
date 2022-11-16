@@ -173,6 +173,7 @@ export default function Home() {
             </a>
           </div>
         </div>
+        <br/>
       </main>
       <footer className={styles.footer}>
         <p id ="footer-text" styles="text-align: center"><b><em>Built and designed by Khethelo Njomo</em></b></p>
