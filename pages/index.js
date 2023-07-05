@@ -68,11 +68,8 @@ export default function Home() {
         <section id="about-me" className={styles.aboutme}>
         <div  className={styles.aboutme}>
         <h2>About me</h2>
-        <p>I'm Khethelo Njomo, a final year software engineering student at WeThinkCode_. I would describe myself as a hardworking coder who loves solving complex problems and learning about new technologies.  I take an interactive stance to always be improving myself in all capacities. I have a passion for all things technology and design, from software engineering to UI/UX.</p>
-        <p>In addition to my love of technology and design, I'm also interested in art, architecture, math and statistics.</p>
-        <br></br>
-        <h2>SovTech Motivation</h2>
-        <p>I consider myself an adaptable person welcomes challenges as a means to improvement. I want to be a part of SovTech graduate program because it fully emcompasses what I am about which is begin bold, having strong opinions and doing something about it as well to learn from industry experts as well as my peers. I want to expand my skills and experties, but above everything, I'm applying for this program to grow my skills and gain invaluable experience.</p>
+        <p>I'm Khethelo Njomo, a final year software engineering student at WeThinkCode_. I would describe myself as a hardworking coder who loves solving complex problems and learning about new technologies.  I take an interactive stance to always be improving myself in all capacities. I have a passion for all things technology and design, from software engineering to UI/UX.In addition to my love of technology and design, I'm also interested in art, architecture, math and statistics.</p>
+        <p>I consider myself an adaptable person welcomes challenges as a means to improvement. I want to expand my skills and experties, but above everything, I want to grow my skills and gain invaluable experience.</p>
         <p>&darr; <a href="Resume-Khethelo-Njomo.pdf" target="_blank"> resume</a></p>
         </div>
         </section>
